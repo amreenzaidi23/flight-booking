@@ -14,8 +14,12 @@ Provide database connection , username and password.
 First time replace "none" with "create" in below line:
 spring.jpa.hibernate.ddl-auto=none
 
+Create "test" database in Mysql 
+>create database test;
+
 In case of any change go to project directory and run below commands to build and run project:-
 Build project
+
 	mvn clean install
 Run project
 	java -jar target/flight-booking-0.0.1-SNAPSHOT.jar
